@@ -65,7 +65,7 @@
 
 /* site developer info */
 #site-developer-info {
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
     max-width: max-content;
     margin: 0 auto;
 }
@@ -436,10 +436,18 @@
 }
 
 @media screen and (min-width: 1201px) {
-    #app-footer {}
+    #app-footer {
+        padding-top: 2.5em;
+        padding-bottom: 4em;
+    }
 
     /* footer section one (f-s-1) */
-    #f-s-1 {}
+    #f-s-1 {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        justify-content: space-between;
+        margin: .5em 0;
+    }
 
     /* footer sections on sub-sections */
     /* site info */
@@ -473,19 +481,36 @@
     .f-s {}
 
     /* footer section header */
-    .f-s-h {}
+    .f-s-h {
+        font-weight: 500;
+        font-size: 16px;
+    }
 
     /* footer section list */
-    .f-s-l {}
+    .f-s-l {
+        margin-top: .5em;
+    }
 
     /* footer section list item */
-    .f-s-l-i {}
+    .f-s-l-i {
+        margin: .8em 0;
+    }
 
     /* footer section list item link */
-    .f-s-l-i-l {}
+    .f-s-l-i-l {
+        font-size: 16px;
+        opacity: .7;
+    }
+
+    .f-s-l-i-l:hover{
+        opacity: 1;
+        color: lightseagreen;
+    }
 
     /* footer section two (f-s-2) */
-    #f-s-2 {}
+    #f-s-2 {
+        margin-top: 2.5em;
+    }
 
     /* site developer info */
     #site-developer-info {}
