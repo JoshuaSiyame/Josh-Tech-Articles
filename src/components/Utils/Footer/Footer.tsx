@@ -15,22 +15,22 @@ const AppFooter = () => {
                     <ol id="site-social-accounts">
                         <li className="social-account">
                             <a href="" className="social-account-link">
-                                <FaGithub size={20} color="#9d9d9d" />
+                                <FaGithub size={21} color="#9d9d9d" />
                             </a>
                         </li>
                         <li className="social-account">
                             <a href="" className="social-account-link">
-                                <FaInstagram size={20} color="#9d9d9d" />
+                                <FaInstagram size={21} color="#9d9d9d" />
                             </a>
                         </li>
                         <li className="social-account">
                             <a href="" className="social-account-link">
-                                <FaTwitter size={20} color="#9d9d9d" />
+                                <FaTwitter size={21} color="#9d9d9d" />
                             </a>
                         </li>
                         <li className="social-account">
                             <a href="" className="social-account-link">
-                                <FaYoutube size={20} color="#9d9d9d" />
+                                <FaYoutube size={21} color="#9d9d9d" />
                             </a>
                         </li>
                     </ol>
@@ -106,17 +106,17 @@ const AppFooter = () => {
                     <h4 id="site-developer-name">Software Engineer: Joshua P. Siyame</h4>
                     <ol id="site-developer-social-accounts">
                         <li className="dev-social-account">
-                            <a href="" className="dev-social-account-link">
+                            <a href="https://github.com/JoshuaSiyame" target="blank" className="dev-social-account-link">
                                 <FaGithub size={18} color="#9d9d9d" />
                             </a>
                         </li>
                         <li className="dev-social-account">
-                            <a href="" className="dev-social-account-link">
+                            <a href="https://www.instagram.com/j__siyame" target="blank" className="dev-social-account-link">
                                 <FaInstagram size={18} color="#9d9d9d" />
                             </a>
                         </li>
                         <li className="dev-social-account">
-                            <a href="" className="dev-social-account-link">
+                            <a href="https://twitter.com/j_siyame" target="blank" className="dev-social-account-link">
                                 <FaTwitter size={18} color="#9d9d9d" />
                             </a>
                         </li>
