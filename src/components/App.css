@@ -1,0 +1,99 @@
+/* General app css styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* body styles */
+body {
+    background-color: #1B2838;
+}
+
+/* App structure */
+#app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* app header */
+#app-header {
+    background-color: whitesmoke;
+}
+
+/* app content wrap */
+#app-content-wrap {
+    background-color: #1B2838;
+}
+
+/* app left content navigation */
+#left-aside-nav {}
+
+/* app main content */
+#main-content {}
+
+/* app right content navigation */
+#right-aside-nav {}
+
+/* app footer */
+#app-footer {
+    margin-top: auto;
+    color: #C7d5e0;
+    background-color: #2a475e;
+}
+
+/* app sections content container */
+.app-section-wrapper {
+    padding: 0em 5em;
+}
+
+/* media queries */
+@media screen and (max-width: 320px) {
+
+    /* app sections content container */
+    .app-section-wrapper {
+        padding: 0em 1em;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+
+    /* app sections content container */
+    .app-section-wrapper {
+        padding: 0em 1.5em;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    /* app sections content container */
+    .app-section-wrapper {
+        padding: 0em 2em;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* app sections content container */
+    .app-section-wrapper {
+        padding: 0em 3em;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+    /* app sections content container */
+    .app-section-wrapper {
+        padding: 0em 4em;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+
+    /* app sections content container */
+    .app-section-wrapper {
+        padding: 0em 5em;
+    }
+}

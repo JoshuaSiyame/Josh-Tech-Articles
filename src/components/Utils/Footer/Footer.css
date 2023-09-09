@@ -1,0 +1,504 @@
+/* Footer general styles */
+#app-footer {}
+
+/* footer section one (f-s-1) */
+#f-s-1 {}
+
+/* footer sections on sub-sections */
+/* site info */
+#site-info {}
+
+/* site info */
+#site-info-header {
+    font-weight: 500;
+}
+
+/* site social accounts */
+#site-social-accounts {
+    display: flex;
+    gap: 1em;
+    margin-top: .5em;
+}
+
+/* social account */
+.social-account {
+    list-style: none;
+}
+
+/* social account link */
+.social-account-link {}
+
+/* site */
+#site {}
+
+/* community */
+#community {}
+
+/* solutions */
+#solutions {}
+
+/* contacts */
+#contacts {}
+
+/* footer sections */
+.f-s {}
+
+/* footer section header */
+.f-s-h {}
+
+/* footer section list */
+.f-s-l {}
+
+/* footer section list item */
+.f-s-l-i {
+    list-style: none;
+}
+
+/* footer section list item link */
+.f-s-l-i-l {
+    color: #c7d5e0;
+    text-decoration: none;
+}
+
+/* footer section two (f-s-2) */
+#f-s-2 {}
+
+/* site developer info */
+#site-developer-info {
+    border: 2px solid salmon;
+    max-width: max-content;
+    margin: 0 auto;
+}
+
+/* site developer name */
+#site-developer-name {
+    font-size: 13px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* site developer social accounts */
+#site-developer-social-accounts {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: .7em;
+}
+
+/* dev social account */
+.dev-social-account {
+    list-style: none;
+}
+
+/* dev social account link */
+.dev-social-account-link {}
+
+
+/* Media queries */
+@media screen and (max-width: 320px) {
+    #app-footer {}
+
+    /* footer section one (f-s-1) */
+    #f-s-1 {}
+
+    /* footer sections on sub-sections */
+    /* site info */
+    #site-info {}
+
+    /* site info */
+    #site-info-header {}
+
+    /* site social accounts */
+    #site-social-accounts {}
+
+    /* social account */
+    .social-account {}
+
+    /* social account link */
+    .social-account-link {}
+
+    /* site */
+    #site {}
+
+    /* community */
+    #community {}
+
+    /* solutions */
+    #solutions {}
+
+    /* contacts */
+    #contacts {}
+
+    /* footer sections */
+    .f-s {}
+
+    /* footer section header */
+    .f-s-h {}
+
+    /* footer section list */
+    .f-s-l {}
+
+    /* footer section list item */
+    .f-s-l-i {}
+
+    /* footer section list item link */
+    .f-s-l-i-l {}
+
+    /* footer section two (f-s-2) */
+    #f-s-2 {}
+
+    /* site developer info */
+    #site-developer-info {}
+
+    /* site developer name */
+    #site-developer-name {}
+
+    /* site developer social accounts */
+    #site-developer-social-accounts {}
+
+    /* dev social account */
+    .dev-social-account {}
+
+    /* dev social account link */
+    .dev-social-account-link {}
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    #app-footer {}
+
+    /* footer section one (f-s-1) */
+    #f-s-1 {}
+
+    /* footer sections on sub-sections */
+    /* site info */
+    #site-info {}
+
+    /* site info */
+    #site-info-header {}
+
+    /* site social accounts */
+    #site-social-accounts {}
+
+    /* social account */
+    .social-account {}
+
+    /* social account link */
+    .social-account-link {}
+
+    /* site */
+    #site {}
+
+    /* community */
+    #community {}
+
+    /* solutions */
+    #solutions {}
+
+    /* contacts */
+    #contacts {}
+
+    /* footer sections */
+    .f-s {}
+
+    /* footer section header */
+    .f-s-h {}
+
+    /* footer section list */
+    .f-s-l {}
+
+    /* footer section list item */
+    .f-s-l-i {}
+
+    /* footer section list item link */
+    .f-s-l-i-l {}
+
+    /* footer section two (f-s-2) */
+    #f-s-2 {}
+
+    /* site developer info */
+    #site-developer-info {}
+
+    /* site developer name */
+    #site-developer-name {}
+
+    /* site developer social accounts */
+    #site-developer-social-accounts {}
+
+    /* dev social account */
+    .dev-social-account {}
+
+    /* dev social account link */
+    .dev-social-account-link {}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #app-footer {}
+
+    /* footer section one (f-s-1) */
+    #f-s-1 {}
+
+    /* footer sections on sub-sections */
+    /* site info */
+    #site-info {}
+
+    /* site info */
+    #site-info-header {}
+
+    /* site social accounts */
+    #site-social-accounts {}
+
+    /* social account */
+    .social-account {}
+
+    /* social account link */
+    .social-account-link {}
+
+    /* site */
+    #site {}
+
+    /* community */
+    #community {}
+
+    /* solutions */
+    #solutions {}
+
+    /* contacts */
+    #contacts {}
+
+    /* footer sections */
+    .f-s {}
+
+    /* footer section header */
+    .f-s-h {}
+
+    /* footer section list */
+    .f-s-l {}
+
+    /* footer section list item */
+    .f-s-l-i {}
+
+    /* footer section list item link */
+    .f-s-l-i-l {}
+
+    /* footer section two (f-s-2) */
+    #f-s-2 {}
+
+    /* site developer info */
+    #site-developer-info {}
+
+    /* site developer name */
+    #site-developer-name {}
+
+    /* site developer social accounts */
+    #site-developer-social-accounts {}
+
+    /* dev social account */
+    .dev-social-account {}
+
+    /* dev social account link */
+    .dev-social-account-link {}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #app-footer {}
+
+    /* footer section one (f-s-1) */
+    #f-s-1 {}
+
+    /* footer sections on sub-sections */
+    /* site info */
+    #site-info {}
+
+    /* site info */
+    #site-info-header {}
+
+    /* site social accounts */
+    #site-social-accounts {}
+
+    /* social account */
+    .social-account {}
+
+    /* social account link */
+    .social-account-link {}
+
+    /* site */
+    #site {}
+
+    /* community */
+    #community {}
+
+    /* solutions */
+    #solutions {}
+
+    /* contacts */
+    #contacts {}
+
+    /* footer sections */
+    .f-s {}
+
+    /* footer section header */
+    .f-s-h {}
+
+    /* footer section list */
+    .f-s-l {}
+
+    /* footer section list item */
+    .f-s-l-i {}
+
+    /* footer section list item link */
+    .f-s-l-i-l {}
+
+    /* footer section two (f-s-2) */
+    #f-s-2 {}
+
+    /* site developer info */
+    #site-developer-info {}
+
+    /* site developer name */
+    #site-developer-name {}
+
+    /* site developer social accounts */
+    #site-developer-social-accounts {}
+
+    /* dev social account */
+    .dev-social-account {}
+
+    /* dev social account link */
+    .dev-social-account-link {}
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    #app-footer {}
+
+    /* footer section one (f-s-1) */
+    #f-s-1 {}
+
+    /* footer sections on sub-sections */
+    /* site info */
+    #site-info {}
+
+    /* site info */
+    #site-info-header {}
+
+    /* site social accounts */
+    #site-social-accounts {}
+
+    /* social account */
+    .social-account {}
+
+    /* social account link */
+    .social-account-link {}
+
+    /* site */
+    #site {}
+
+    /* community */
+    #community {}
+
+    /* solutions */
+    #solutions {}
+
+    /* contacts */
+    #contacts {}
+
+    /* footer sections */
+    .f-s {}
+
+    /* footer section header */
+    .f-s-h {}
+
+    /* footer section list */
+    .f-s-l {}
+
+    /* footer section list item */
+    .f-s-l-i {}
+
+    /* footer section list item link */
+    .f-s-l-i-l {}
+
+    /* footer section two (f-s-2) */
+    #f-s-2 {}
+
+    /* site developer info */
+    #site-developer-info {}
+
+    /* site developer name */
+    #site-developer-name {}
+
+    /* site developer social accounts */
+    #site-developer-social-accounts {}
+
+    /* dev social account */
+    .dev-social-account {}
+
+    /* dev social account link */
+    .dev-social-account-link {}
+}
+
+@media screen and (min-width: 1201px) {
+    #app-footer {}
+
+    /* footer section one (f-s-1) */
+    #f-s-1 {}
+
+    /* footer sections on sub-sections */
+    /* site info */
+    #site-info {}
+
+    /* site info */
+    #site-info-header {}
+
+    /* site social accounts */
+    #site-social-accounts {}
+
+    /* social account */
+    .social-account {}
+
+    /* social account link */
+    .social-account-link {}
+
+    /* site */
+    #site {}
+
+    /* community */
+    #community {}
+
+    /* solutions */
+    #solutions {}
+
+    /* contacts */
+    #contacts {}
+
+    /* footer sections */
+    .f-s {}
+
+    /* footer section header */
+    .f-s-h {}
+
+    /* footer section list */
+    .f-s-l {}
+
+    /* footer section list item */
+    .f-s-l-i {}
+
+    /* footer section list item link */
+    .f-s-l-i-l {}
+
+    /* footer section two (f-s-2) */
+    #f-s-2 {}
+
+    /* site developer info */
+    #site-developer-info {}
+
+    /* site developer name */
+    #site-developer-name {}
+
+    /* site developer social accounts */
+    #site-developer-social-accounts {}
+
+    /* dev social account */
+    .dev-social-account {}
+
+    /* dev social account link */
+    .dev-social-account-link {}
+}
