@@ -13,7 +13,7 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "",
+    "build": "webpack --config webpack.prod.ts",
     "start": "webpack serve --config webpack.dev.ts"
   },
   "author": "Joshua P. Siyame",
