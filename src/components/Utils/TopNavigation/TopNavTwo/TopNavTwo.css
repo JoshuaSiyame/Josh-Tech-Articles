@@ -1,0 +1,29 @@
+/* General Top nav two styles */
+/* Top nav two */
+#top-nav-two{}
+
+/* search box */
+#search-box{}
+
+/* top nav two list */
+#t-n-t-l{}
+
+/* top nav list item */
+.t-n-t-l-i{}
+
+/* top nav list item link */
+.t-n-t-l-i-l{}
+
+
+/* media queries */
+@media screen and (max-width: 320px) {}
+
+@media (min-width: 321px) and (max-width: 480px) {}
+
+@media (min-width: 481px) and (max-width: 768px) {}
+
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+@media (min-width: 1025px) and (max-width: 1200px) {}
+
+@media screen and (max-width: 1201px) {}
