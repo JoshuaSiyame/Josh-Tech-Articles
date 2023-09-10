@@ -5,7 +5,7 @@ import { createRoot } from "react-dom/client";
 // import component
 import App from "./components/App";
 
-// get app entrance
+// get app entrance element
 const root = createRoot(
     document.getElementById("root") as HTMLElement
 );
