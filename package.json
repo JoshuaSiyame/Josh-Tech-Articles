@@ -3,13 +3,7 @@
   "version": "1.0.0",
   "description": "ReactJs with TypeScript frontend app for my website.",
   "main": "./src/index.tsx",
-  "jest": {
-    "testEnvironment": "dom",
-    "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css|less)$": "identity-obj-proxy"
-    },
-    "repository": {
+  "repository": {
       "repo": {
         "url": "https://github.com/JoshuaSiyame/JoshTechArticles"
       },
@@ -62,4 +56,3 @@
       "webpack-merge": "^5.9.0"
     }
   }
-}
