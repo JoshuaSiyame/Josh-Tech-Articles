@@ -1,0 +1,225 @@
+/* Articles general styles */
+/* articles container */
+#articles-content-container {
+    margin-top: .5em;
+    margin-bottom: 2em;
+}
+
+/* article */
+.article {
+    border: 2px solid #c7d5e0;
+    border-radius: 2px;
+    padding: 1em;
+    margin-bottom: .5em;
+}
+
+/*article date author */
+.article-date-author {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1em;
+    font-size: 14px;
+    color: rgba(199, 213, 224, .5);
+}
+
+/* article date author item */
+.article-date-author-item {
+    list-style: none;
+}
+
+/* article title link */
+.article-title-link{
+    text-decoration: none;
+}
+
+.article-title:hover{
+    color: salmon;
+}
+
+/* article title */
+.article-title {
+    font-weight: 500;
+    margin: .5em 0;
+    color: #c7d5e0;
+    font-size: 15.5px;
+}
+
+/* article brief */
+.article-brief {
+    color: rgba(199, 213, 224, .5);
+    font-size: 14.5px;
+}
+
+/* article tags */
+.article-tags {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1em;
+    row-gap: .5em;
+    margin-top: .5em;
+}
+
+/* article tag item */
+.article-tag-item {
+    color: rgba(102, 192, 244, .5);
+    list-style: none;
+    font-size: 14px;
+}
+
+/* media queries */
+@media screen and (max-width: 320px) {
+    /* articles container */
+    #articles-content-container {}
+
+    /* article */
+    .article {}
+
+    /*article date author */
+    .article-date-author {}
+
+    /* article date author item */
+    .article-date-author-item {}
+
+    /* article title */
+    .article-title {}
+
+    /* article brief */
+    .article-brief {}
+
+    /* article tags */
+    .article-tags {}
+
+    /* article tag item */
+    .article-tag-item {}
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    /* articles container */
+    #articles-content-container {}
+
+    /* article */
+    .article {}
+
+    /*article date author */
+    .article-date-author {}
+
+    /* article date author item */
+    .article-date-author-item {}
+
+    /* article title */
+    .article-title {}
+
+    /* article brief */
+    .article-brief {}
+
+    /* article tags */
+    .article-tags {}
+
+    /* article tag item */
+    .article-tag-item {}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    /* articles container */
+    #articles-content-container {}
+
+    /* article */
+    .article {}
+
+    /*article date author */
+    .article-date-author {}
+
+    /* article date author item */
+    .article-date-author-item {}
+
+    /* article title */
+    .article-title {}
+
+    /* article brief */
+    .article-brief {}
+
+    /* article tags */
+    .article-tags {}
+
+    /* article tag item */
+    .article-tag-item {}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* articles container */
+    #articles-content-container {}
+
+    /* article */
+    .article {}
+
+    /*article date author */
+    .article-date-author {}
+
+    /* article date author item */
+    .article-date-author-item {}
+
+    /* article title */
+    .article-title {}
+
+    /* article brief */
+    .article-brief {}
+
+    /* article tags */
+    .article-tags {}
+
+    /* article tag item */
+    .article-tag-item {}
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    /* articles container */
+    #articles-content-container {}
+
+    /* article */
+    .article {}
+
+    /*article date author */
+    .article-date-author {}
+
+    /* article date author item */
+    .article-date-author-item {}
+
+    /* article title */
+    .article-title {}
+
+    /* article brief */
+    .article-brief {}
+
+    /* article tags */
+    .article-tags {}
+
+    /* article tag item */
+    .article-tag-item {}
+}
+
+@media screen and (min-width: 1201px) {
+
+    /* articles container */
+    #articles-content-container {}
+
+    /* article */
+    .article {}
+
+    /*article date author */
+    .article-date-author {}
+
+    /* article date author item */
+    .article-date-author-item {}
+
+    /* article title */
+    .article-title {}
+
+    /* article brief */
+    .article-brief {}
+
+    /* article tags */
+    .article-tags {}
+
+    /* article tag item */
+    .article-tag-item {}
+}
