@@ -1,0 +1,396 @@
+/* General Top nav two styles */
+/* top nav two */
+#top-nav-two {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+/* top nav two container */
+#top-nav-two-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* search box container */
+#search-box-container {}
+
+/* search form 1 */
+#search-form-1 {}
+
+/* main menu container */
+#main-menu-container {
+    display: flex;
+    align-items: center;
+}
+
+/* main menu list */
+#main-menu-list {
+    display: flex;
+    justify-content: right;
+    align-items: baseline;
+}
+
+/* main menu list item */
+.m-m-l-i {
+    list-style: none;
+}
+
+/* main menu list item link */
+.m-m-l-i-l {
+    color: #c7d5e0;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.m-m-l-i-l:hover {
+    border-bottom: 1.5px solid #c7d5e0;
+}
+
+/* nav icons */
+.nav-icons {
+    font-size: 25px;
+    color: #c7d5e0;
+    display: none;
+}
+
+/* search box form control 1 */
+#s-b-f-c-1 {
+    max-width: 290px;
+}
+
+/* alternative search box */
+#alt-search-box {
+    /* border: 1px solid salmon; */
+    margin: .5em 0;
+}
+
+/* search form 2 */
+#search-form-2 {
+    display: none;
+}
+
+/* search box form group */
+.s-b-f-g {
+    display: grid;
+}
+
+/* search box form control */
+.s-b-f-c {
+    border: 0px;
+    border-radius: 2px;
+    padding: .5em;
+    color: #c7d5e0;
+    background-color: #2a475e;
+    font-style: italic;
+}
+
+/* media queries */
+@media screen and (max-width: 320px) {
+
+    /* top nav two */
+    #top-nav-two {}
+
+    /* top nav two container */
+    #top-nav-two-container {}
+
+    /* search box container */
+    #search-box-container {}
+
+    /* search form 1 */
+    #search-form-1 {}
+
+    /* main menu container */
+    #main-menu-container {
+        display: flex;
+        justify-content: right;
+    }
+
+    /* main menu list */
+    #main-menu-list {
+        display: none;
+    }
+
+    /* main menu list item */
+    .m-m-l-i {}
+
+    /* main menu list item link */
+    .m-m-l-i-l {}
+
+    .m-m-l-i-l:hover {}
+
+    /* nav icons */
+    .nav-icons {
+        display: block;
+    }
+
+    /* search box form control 1 */
+    #s-b-f-c-1 {}
+
+    /* alternative search box */
+    #alt-search-box {}
+
+    /* search form 2 */
+    #search-form-2 {}
+
+    /* search box form group */
+    .s-b-f-g {}
+
+    /* search box form control */
+    .s-b-f-c {}
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+
+    /* top nav two */
+    #top-nav-two {}
+
+    /* top nav two container */
+    #top-nav-two-container {}
+
+    /* search box container */
+    #search-box-container {}
+
+    /* search form 1 */
+    #search-form-1 {}
+
+    /* main menu container */
+    #main-menu-container {
+        display: flex;
+        justify-content: right;
+    }
+
+    /* main menu list */
+    #main-menu-list {
+        display: none;
+    }
+
+    /* main menu list item */
+    .m-m-l-i {}
+
+    /* main menu list item link */
+    .m-m-l-i-l {}
+
+    .m-m-l-i-l:hover {}
+
+    /* nav icons */
+    .nav-icons {
+        display: block;
+    }
+
+    /* search box form control 1 */
+    #s-b-f-c-1 {}
+
+    /* alternative search box */
+    #alt-search-box {}
+
+    /* search form 2 */
+    #search-form-2 {}
+
+    /* search box form group */
+    .s-b-f-g {}
+
+    /* search box form control */
+    .s-b-f-c {}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    /* top nav two */
+    #top-nav-two {}
+
+    /* top nav two container */
+    #top-nav-two-container {}
+
+    /* search box container */
+    #search-box-container {}
+
+    /* search form 1 */
+    #search-form-1 {}
+
+    /* main menu container */
+    #main-menu-container {
+        display: flex;
+        justify-content: right;
+    }
+
+    /* main menu list */
+    #main-menu-list {
+        display: none;
+    }
+
+    /* main menu list item */
+    .m-m-l-i {}
+
+    /* main menu list item link */
+    .m-m-l-i-l {}
+
+    .m-m-l-i-l:hover {}
+
+    /* nav icons */
+    .nav-icons {
+        display: block;
+    }
+
+    /* search box form control 1 */
+    #s-b-f-c-1 {}
+
+    /* alternative search box */
+    #alt-search-box {}
+
+    /* search form 2 */
+    #search-form-2 {}
+
+    /* search box form group */
+    .s-b-f-g {}
+
+    /* search box form control */
+    .s-b-f-c {}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* top nav two */
+    #top-nav-two {}
+
+    /* top nav two container */
+    #top-nav-two-container {}
+
+    /* search box container */
+    #search-box-container {}
+
+    /* search form 1 */
+    #search-form-1 {}
+
+    /* main menu container */
+    #main-menu-container {
+        display: flex;
+        justify-content: right;
+    }
+
+    /* main menu list */
+    #main-menu-list {
+        display: none;
+    }
+
+    /* main menu list item */
+    .m-m-l-i {}
+
+    /* main menu list item link */
+    .m-m-l-i-l {}
+
+    .m-m-l-i-l:hover {}
+
+    /* nav icons */
+    .nav-icons {
+        display: block;
+    }
+
+    /* search box form control 1 */
+    #s-b-f-c-1 {}
+
+    /* alternative search box */
+    #alt-search-box {}
+
+    /* search form 2 */
+    #search-form-2 {}
+
+    /* search box form group */
+    .s-b-f-g {}
+
+    /* search box form control */
+    .s-b-f-c {}
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+    /* top nav two */
+    #top-nav-two {}
+
+    /* top nav two container */
+    #top-nav-two-container {}
+
+    /* search box container */
+    #search-box-container {}
+
+    /* search form 1 */
+    #search-form-1 {}
+
+    /* main menu container */
+    #main-menu-container {}
+
+    /* main menu list */
+    #main-menu-list {}
+
+    /* main menu list item */
+    .m-m-l-i {}
+
+    /* main menu list item link */
+    .m-m-l-i-l {}
+
+    .m-m-l-i-l:hover {}
+
+    /* nav icons */
+    .nav-icons {}
+
+    /* search box form control 1 */
+    #s-b-f-c-1 {}
+
+    /* alternative search box */
+    #alt-search-box {}
+
+    /* search form 2 */
+    #search-form-2 {}
+
+    /* search box form group */
+    .s-b-f-g {}
+
+    /* search box form control */
+    .s-b-f-c {}
+}
+
+@media screen and (min-width: 1201px) {
+
+    /* top nav two */
+    #top-nav-two {}
+
+    /* top nav two container */
+    #top-nav-two-container {}
+
+    /* search box container */
+    #search-box-container {}
+
+    /* search form 1 */
+    #search-form-1 {}
+
+    /* main menu container */
+    #main-menu-container {}
+
+    /* main menu list */
+    #main-menu-list {}
+
+    /* main menu list item */
+    .m-m-l-i {}
+
+    /* main menu list item link */
+    .m-m-l-i-l {}
+
+    .m-m-l-i-l:hover {}
+
+    /* nav icons */
+    .nav-icons {}
+
+    /* search box form control 1 */
+    #s-b-f-c-1 {}
+
+    /* alternative search box */
+    #alt-search-box {}
+
+    /* search form 2 */
+    #search-form-2 {}
+
+    /* search box form group */
+    .s-b-f-g {}
+
+    /* search box form control */
+    .s-b-f-c {}
+}
