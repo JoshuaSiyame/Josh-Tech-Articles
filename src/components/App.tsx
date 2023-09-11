@@ -8,7 +8,6 @@ import LeftAsideNav from "./Utils/LeftAsideNav/LeftAsideNav";
 import RightAsideNav from "./Utils/RightAsideNav/RightAsideNav";
 import MainContent from "./MainContent/MainContent";
 import TopNavigation from "./Utils/TopNavigation/TopNavigation";
-import TopNavTwo from "./Utils/TopNavigation/TopNavTwo/TopNavTwo";
 
 // app component
 const App = () => {
@@ -18,12 +17,11 @@ const App = () => {
                 <TopNavigation />
             </header>
             <div id="app-content-wrap">
-                <TopNavTwo />
-                <div id="">
+                {/* <div id="">
                     <LeftAsideNav />
                     <MainContent />
                     <RightAsideNav />
-                </div>
+                </div> */}
             </div>
             <footer id="app-footer">
                 <AppFooter />
