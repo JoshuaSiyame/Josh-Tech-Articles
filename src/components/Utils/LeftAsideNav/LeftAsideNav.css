@@ -22,7 +22,7 @@
 /* aside content list */
 .aside-content-list {
     padding-left: 1em;
-    display: none;
+    display: non;
 }
 
 /* aside content list item */
