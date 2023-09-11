@@ -1,8 +1,8 @@
 /* General Top nav two styles */
 /* top nav two */
 #top-nav-two {
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    /* padding-top: 1.5em;
+    padding-bottom: 1.5em; */
 }
 
 /* top nav two container */
@@ -88,7 +88,10 @@
 @media screen and (max-width: 320px) {
 
     /* top nav two */
-    #top-nav-two {}
+    #top-nav-two {
+        padding-top: .5em;
+        padding-bottom: 0em;
+    }
 
     /* top nav two container */
     #top-nav-two-container {}
@@ -142,7 +145,10 @@
 @media (min-width: 321px) and (max-width: 480px) {
 
     /* top nav two */
-    #top-nav-two {}
+    #top-nav-two {
+        padding-top: .75em;
+        padding-bottom: 0em;
+    }
 
     /* top nav two container */
     #top-nav-two-container {}
@@ -196,7 +202,10 @@
 @media (min-width: 481px) and (max-width: 768px) {
 
     /* top nav two */
-    #top-nav-two {}
+    #top-nav-two {
+        padding-top: .75em;
+        padding-bottom: 0em;
+    }
 
     /* top nav two container */
     #top-nav-two-container {}
@@ -250,7 +259,10 @@
 @media (min-width: 769px) and (max-width: 1024px) {
 
     /* top nav two */
-    #top-nav-two {}
+    #top-nav-two {
+        padding-top: 1em;
+        padding-bottom: .25em;
+    }
 
     /* top nav two container */
     #top-nav-two-container {}
@@ -304,7 +316,10 @@
 @media (min-width: 1025px) and (max-width: 1200px) {
 
     /* top nav two */
-    #top-nav-two {}
+    #top-nav-two {
+        padding-top: 1em;
+        padding-bottom: .25em;
+    }
 
     /* top nav two container */
     #top-nav-two-container {}
@@ -351,7 +366,10 @@
 @media screen and (min-width: 1201px) {
 
     /* top nav two */
-    #top-nav-two {}
+    #top-nav-two {
+        padding-top: 1em;
+        padding-bottom: .25em;
+    }
 
     /* top nav two container */
     #top-nav-two-container {}
