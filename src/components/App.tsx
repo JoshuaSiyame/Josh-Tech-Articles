@@ -6,7 +6,7 @@ import "./App.css";
 import AppFooter from "./Utils/Footer/Footer";
 import LeftAsideNav from "./Utils/LeftAsideNav/LeftAsideNav";
 import RightAsideNav from "./Utils/RightAsideNav/RightAsideNav";
-import MainContent from "./MainContent/MainContent";
+import MainContainer from "./MainContainer/MainContainer";
 import TopNavigation from "./Utils/TopNavigation/TopNavigation";
 import TopNavTwo from "./Utils/TopNavigation/TopNavTwo/TopNavTwo";
 
@@ -19,11 +19,7 @@ const App = () => {
             </header>
             <div id="app-content-wrap">
                 <TopNavTwo />
-                {/* <div id="">
-                    <LeftAsideNav />
-                    <MainContent />
-                    <RightAsideNav />
-                </div> */}
+                <MainContainer />
             </div>
             <footer id="app-footer">
                 <AppFooter />
