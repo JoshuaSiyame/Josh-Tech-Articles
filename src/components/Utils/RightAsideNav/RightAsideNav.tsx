@@ -5,7 +5,7 @@ import "./RightAsideNav.css";
 // RightAsideNav component 
 const RightAsideNav = () =>{
     return (
-        <aside className="app-section-wrapper">
+        <aside>
             <h4>Right nav</h4>
         </aside>
     );

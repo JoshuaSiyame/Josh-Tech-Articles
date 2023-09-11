@@ -2,12 +2,12 @@
 import React from "react";
 import "./MainContent.css";
 
-// MainContent component 
+// MainContent component
 const MainContent = () =>{
     return (
-        <main className="app-section-wrapper">
-            <h2>Main Content</h2>
-        </main>
+        <div id="main-content">
+            <h2>Main Content coming here.</h2>
+        </div>
     );
 };
 
