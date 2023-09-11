@@ -10,17 +10,17 @@ const TopNavOne = () => {
             <a href="" id="site-logo">Josh-Tech-Articles</a>
             <ol id="t-n-o-l">
                 <li className="t-n-o-l-i">
-                    <a href="" className="t-n-o-l-i-l">
+                    <a href="" id="feedback" className="t-n-o-l-i-l">
                         FeedBack
                     </a>
                 </li>
                 <li className="t-n-o-l-i">
-                    <a href="" className="t-n-o-l-i-l">
+                    <a href="" id="login" className="t-n-o-l-i-l">
                         Log In
                     </a>
                 </li>
                 <li className="t-n-o-l-i">
-                    <a href="" className="t-n-o-l-i-l">
+                    <a href="" id="signin" className="t-n-o-l-i-l">
                         Sign In                        
                     </a>
                 </li>

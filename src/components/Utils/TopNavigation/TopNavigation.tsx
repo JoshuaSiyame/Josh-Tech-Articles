@@ -2,7 +2,6 @@
 import React from "react";
 import "./TopNavigation.css";
 import TopNavOne from "./TopNavOne/TopNavOne";
-import TopNavTwo from "./TopNavTwo/TopNavTwo";
 
 // TopNavigation component 
 const TopNavigation = () =>{
