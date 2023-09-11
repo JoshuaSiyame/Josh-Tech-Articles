@@ -3,10 +3,10 @@ import React from "react";
 import "./MainContent.css";
 
 // MainContent component
-const MainContent = () =>{
+const MainContent = () => {
     return (
         <div id="main-content">
-            <h2>Main Content coming here.</h2>
+            <h4 className="main-container-section-header">Articles/Latest</h4>
         </div>
     );
 };

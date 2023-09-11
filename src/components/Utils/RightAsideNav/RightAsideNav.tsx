@@ -3,10 +3,10 @@ import React from "react";
 import "./RightAsideNav.css";
 
 // RightAsideNav component 
-const RightAsideNav = () =>{
+const RightAsideNav = () => {
     return (
-        <aside>
-            <h4>Right nav</h4>
+        <aside id="right-nav-aside">
+            <h4 className="main-container-section-header">Popular articles</h4>
         </aside>
     );
 };

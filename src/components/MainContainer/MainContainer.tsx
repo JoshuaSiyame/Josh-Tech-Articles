@@ -11,15 +11,9 @@ import MainContent from "../MainContent/MainContent";
 const MainContainer = () => {
     return (
         <main id="main-container" className="app-section-wrapper">
-            <aside id="left-nav-aside">
-                <h4 className="main-container-section-header">Guides</h4>
-            </aside>
-            <div id="main-content">
-                <h4 className="main-container-section-header">Articles/Latest</h4>
-            </div>
-            <aside id="right-nav-aside">
-                <h4 className="main-container-section-header">Popular articles</h4>
-            </aside>
+            <LeftAsideNav />
+            <MainContent />
+            <RightAsideNav />
         </main>
     );
 };
