@@ -4,6 +4,7 @@ import "./Footer.css";
 
 // import icons
 import { FaTwitter, FaGithub, FaInstagram, FaDiscord, FaYoutube } from "react-icons/fa"
+import { RiTwitterXLine } from "react-icons/ri"
 
 // footer component
 const AppFooter = () => {
@@ -25,7 +26,7 @@ const AppFooter = () => {
                         </li>
                         <li className="social-account">
                             <a href="" className="social-account-link">
-                                <FaTwitter size={21} color="#9d9d9d" />
+                                <RiTwitterXLine size={21} color="#9d9d9d" />
                             </a>
                         </li>
                         <li className="social-account">
@@ -117,7 +118,7 @@ const AppFooter = () => {
                         </li>
                         <li className="dev-social-account">
                             <a href="https://twitter.com/j_siyame" target="blank" className="dev-social-account-link">
-                                <FaTwitter size={18} color="#9d9d9d" />
+                                <RiTwitterXLine size={18} color="#9d9d9d" />
                             </a>
                         </li>
                     </ol>
