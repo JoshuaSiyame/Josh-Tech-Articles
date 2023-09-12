@@ -20,9 +20,15 @@
 }
 
 /* aside content list */
-.aside-content-list {
+/* active */
+.aside-content-list-active {
     padding-left: 1em;
-    display: non;
+    display: block;
+}
+
+/* inactive */
+.aside-content-list{
+    display: none;
 }
 
 /* aside content list item */
