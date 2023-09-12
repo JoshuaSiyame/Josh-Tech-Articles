@@ -31,6 +31,10 @@
     display: none;
 }
 
+#projects{
+    transition: all .5s ease-in;
+}
+
 /* aside content list item */
 .aside-content-list-item {
     list-style: none;
