@@ -1,6 +1,6 @@
 // import modules/packages
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 // import components
@@ -14,19 +14,22 @@ import TopNavTwo from "./Utils/TopNavigation/TopNavTwo/TopNavTwo";
 // app component
 const App = () => {
     return (
-        <BrowserRouter>
-            <div id="app-wrap">
-                <header id="app-header">
-                    <TopNavigation />
-                </header>
-                <div id="app-content-wrap">
-                    <TopNavTwo />
-                    <MainContainer />
+        <BrowserRouter>            
+                <div id="app-wrap">
+                    <header id="app-header">
+                        <TopNavigation />
+                    </header>
+                    <div id="app-content-wrap">
+                        <TopNavTwo />
+                        <MainContainer />
+                    </div>
+                    <footer id="app-footer">
+                        <AppFooter />
+                    </footer>
                 </div>
-                <footer id="app-footer">
-                    <AppFooter />
-                </footer>
-            </div>
+            <Routes>
+                <Route></Route>
+            </Routes>
         </BrowserRouter>
     );
 };
