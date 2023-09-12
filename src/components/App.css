@@ -54,7 +54,7 @@ body {
 
     /* app sections content container */
     .app-section-wrapper {
-        padding: 0em 1em;
+        padding: 0em .8em;
     }
 }
 
