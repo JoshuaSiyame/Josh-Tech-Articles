@@ -1,12 +1,25 @@
 // import modules/packages
-import React from "react";
+import React, { useState } from "react";
 import "./TopNavTwo.css";
 
 // import icons 
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 // TopNavTwo component 
 const TopNavTwo = () => {
+    // states to handle menu on media less than 769px
+    const [toggle, setToggle] = useState<boolean>(false);
+
+    // handle toggle
+    const handleToggle = () => {
+        setToggle(!toggle);
+    };
+
+    // handle untoggle
+    const handleUnToggle = () => {
+        setToggle(false);
+    }
+
     return (
         <div id="top-nav-two" className="app-section-wrapper">
             <div id="top-nav-two-container">
@@ -18,7 +31,7 @@ const TopNavTwo = () => {
                     </form>
                 </div>
                 <div id="main-menu-container">
-                    <ol id="main-menu-list">
+                    <ol id={toggle ? "main-menu-list" : "main-menu-list-inactive"}>
                         <li className="m-m-l-i">
                             <a href="" className="m-m-l-i-l">Latest</a>
                         </li>
@@ -46,8 +59,11 @@ const TopNavTwo = () => {
                         <li className="m-m-l-i">
                             <a href="" className="m-m-l-i-l">Others</a>
                         </li>
+                        <li className="m-m-l-i" style={{ marginTop: "3em" }}>
+                            <FaTimes id="close-icon" className="nav-icons" onClick={handleUnToggle} />
+                        </li>
                     </ol>
-                    <FaBars id="hamburger-icon" className="nav-icons" />
+                    <FaBars id="hamburger-icon" className="nav-icons" onClick={handleToggle} />
                 </div>
             </div>
             <div id="alt-search-box">
