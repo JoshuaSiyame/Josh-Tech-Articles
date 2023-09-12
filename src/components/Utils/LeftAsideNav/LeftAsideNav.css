@@ -1,6 +1,6 @@
 /* general aside nav styles */
 /* left nav aside content container */
-#left-nav-aside-content-container {
+#left-nav-aside-content-container, #right-nav-aside-content-container {
     margin-top: .5em;
 }
 
