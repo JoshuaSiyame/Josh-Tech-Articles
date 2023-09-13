@@ -34,31 +34,31 @@ const TopNavTwo = () => {
                 <div id="main-menu-container">
                     <ol id={toggle ? "main-menu-list" : "main-menu-list-inactive"}>
                         <li className="m-m-l-i">
-                            <NavLink to="/latest" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>Latest</NavLink>
+                            <NavLink to="/latest" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"} onClick={handleUnToggle}>Latest</NavLink>
                         </li>
                         <li className="m-m-l-i">
-                            <NavLink to="/ExpressJs" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>ExpressJs</NavLink>
+                            <NavLink to="/expressjs" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"} onClick={handleUnToggle}>ExpressJs</NavLink>
                         </li>
                         <li className="m-m-l-i">
-                            <NavLink to="/ReactJs" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>ReactJs</NavLink>
+                            <NavLink to="/reactjs" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"} onClick={handleUnToggle}>ReactJs</NavLink>
                         </li>
                         <li className="m-m-l-i">
-                            <NavLink to="/NodeJs" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>NodeJs</NavLink>
+                            <NavLink to="/nodejs" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"} onClick={handleUnToggle}>NodeJs</NavLink>
                         </li>
                         <li className="m-m-l-i">
-                            <NavLink to="/MongoDB" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>MongoDB</NavLink>
+                            <NavLink to="mongodb" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"} onClick={handleUnToggle}>MongoDB</NavLink>
                         </li>
                         <li className="m-m-l-i">
-                            <NavLink to="/JavaScript" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>JavaScript</NavLink>
+                            <NavLink to="/javascript" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"} onClick={handleUnToggle}>JavaScript</NavLink>
                         </li>
                         <li className="m-m-l-i">
-                            <NavLink to="/TypeScript" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>TypeScript</NavLink>
+                            <NavLink to="/typescript" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"} onClick={handleUnToggle}>TypeScript</NavLink>
                         </li>
                         <li className="m-m-l-i">
-                            <NavLink to="/Web3" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>Web3</NavLink>
+                            <NavLink to="/web3" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"} onClick={handleUnToggle}>Web3</NavLink>
                         </li>
                         <li className="m-m-l-i">
-                            <NavLink to="/Others" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>Others</NavLink>
+                            <NavLink to="/others" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"} onClick={handleUnToggle}>Others</NavLink>
                         </li>
                         <li className="m-m-l-i" style={{ marginTop: "3em" }}>
                             <FaTimes id="close-icon" className="nav-icons" onClick={handleUnToggle} />
