@@ -42,7 +42,15 @@
     text-decoration: none;
 }
 
+/* main menu list item link */
 .m-m-l-i-l:hover {
+    color: lightseagreen;
+    border-bottom: 1.5px solid #c7d5e0;
+}
+
+/* main menu list item link */
+.m-m-l-i-l-active{
+    color: lightseagreen;
     border-bottom: 1.5px solid #c7d5e0;
 }
 
