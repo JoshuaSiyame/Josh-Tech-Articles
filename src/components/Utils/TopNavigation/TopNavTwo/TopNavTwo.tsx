@@ -1,5 +1,6 @@
 // import modules/packages
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./TopNavTwo.css";
 
 // import icons 
@@ -33,31 +34,31 @@ const TopNavTwo = () => {
                 <div id="main-menu-container">
                     <ol id={toggle ? "main-menu-list" : "main-menu-list-inactive"}>
                         <li className="m-m-l-i">
-                            <a href="" className="m-m-l-i-l">Latest</a>
+                            <NavLink to="/latest" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>Latest</NavLink>
                         </li>
                         <li className="m-m-l-i">
-                            <a href="" className="m-m-l-i-l">ExpressJs</a>
+                            <NavLink to="/ExpressJs" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>ExpressJs</NavLink>
                         </li>
                         <li className="m-m-l-i">
-                            <a href="" className="m-m-l-i-l">ReactJs</a>
+                            <NavLink to="/ReactJs" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>ReactJs</NavLink>
                         </li>
                         <li className="m-m-l-i">
-                            <a href="" className="m-m-l-i-l">NodeJs</a>
+                            <NavLink to="/NodeJs" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>NodeJs</NavLink>
                         </li>
                         <li className="m-m-l-i">
-                            <a href="" className="m-m-l-i-l">MongoDB</a>
+                            <NavLink to="/MongoDB" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>MongoDB</NavLink>
                         </li>
                         <li className="m-m-l-i">
-                            <a href="" className="m-m-l-i-l">JavaScript</a>
+                            <NavLink to="/JavaScript" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>JavaScript</NavLink>
                         </li>
                         <li className="m-m-l-i">
-                            <a href="" className="m-m-l-i-l">TypeScript</a>
+                            <NavLink to="/TypeScript" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>TypeScript</NavLink>
                         </li>
                         <li className="m-m-l-i">
-                            <a href="" className="m-m-l-i-l">Web3</a>
+                            <NavLink to="/Web3" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>Web3</NavLink>
                         </li>
                         <li className="m-m-l-i">
-                            <a href="" className="m-m-l-i-l">Others</a>
+                            <NavLink to="/Others" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"}>Others</NavLink>
                         </li>
                         <li className="m-m-l-i" style={{ marginTop: "3em" }}>
                             <FaTimes id="close-icon" className="nav-icons" onClick={handleUnToggle} />
