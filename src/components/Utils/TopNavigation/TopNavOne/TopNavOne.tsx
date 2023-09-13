@@ -6,7 +6,7 @@ import Button from "../../Button/Button";
 // TopNavOne component
 const TopNavOne = () => {
     return (
-        <div id="top-nav-one">
+        <div id="top-nav-one" className="app-section-wrapper">
             <a href="" id="site-logo">Josh-Tech-Articles</a>
             <ol id="t-n-o-l">
                 <li className="t-n-o-l-i">
