@@ -1,6 +1,6 @@
 // import modules/packages
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import "./TopNavTwo.css";
 
 // import icons 
@@ -34,7 +34,7 @@ const TopNavTwo = () => {
                 <div id="main-menu-container">
                     <ol id={toggle ? "main-menu-list" : "main-menu-list-inactive"}>
                         <li className="m-m-l-i">
-                            <NavLink to="/latest" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"} onClick={handleUnToggle}>Latest</NavLink>
+                            <NavLink to="/" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"} onClick={handleUnToggle}>Latest</NavLink>
                         </li>
                         <li className="m-m-l-i">
                             <NavLink to="/expressjs" className={({isActive})=>isActive ? "m-m-l-i-l-active m-m-l-i-l" : "m-m-l-i-l"} onClick={handleUnToggle}>ExpressJs</NavLink>
@@ -63,6 +63,7 @@ const TopNavTwo = () => {
                         <li className="m-m-l-i" style={{ marginTop: "3em" }}>
                             <FaTimes id="close-icon" className="nav-icons" onClick={handleUnToggle} />
                         </li>
+                        <Outlet />
                     </ol>
                     <FaBars id="hamburger-icon" className="nav-icons" onClick={handleToggle} />
                 </div>
