@@ -37,7 +37,7 @@ const App = () => {
                     <main id="main-container" className="app-section-wrapper">
                         <LeftAsideNav />
                         <Routes>
-                            <Route path="/latest" element={<Latest />} index />
+                            <Route path="/" element={<Latest />} exact />
                             <Route path="/expressjs" element={<ExpressJs />} />
                             <Route path="/reactjs" element={<ReactJs />} />
                             <Route path="/nodejs" element={<NodeJs />} />
