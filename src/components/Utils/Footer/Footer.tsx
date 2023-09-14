@@ -4,7 +4,7 @@ import "./Footer.css";
 import { NavLink } from "react-router-dom";
 
 // import icons
-import { FaTwitter, FaGithub, FaInstagram, FaDiscord, FaYoutube } from "react-icons/fa"
+import { FaTwitter, FaGithub, FaInstagram, FaDiscord, FaYoutube, FaLinkedin } from "react-icons/fa"
 import { RiTwitterXLine } from "react-icons/ri"
 
 // footer component
@@ -16,23 +16,28 @@ const AppFooter = () => {
                     <h4 id="site-info-header">Josh-Tech-Articles</h4>
                     <ol id="site-social-accounts">
                         <li className="social-account">
-                            <a href="" className="social-account-link">
+                            <a href="https://github.com/JoshuaSiyame" className="social-account-link">
                                 <FaGithub size={21} color="#9d9d9d" />
                             </a>
                         </li>
-                        {/* <li className="social-account">
+                        {/*  <li className="social-account">
                             <a href="" className="social-account-link">
                                 <FaInstagram size={21} color="#9d9d9d" />
                             </a>
                         </li> */}
                         <li className="social-account">
-                            <a href="" className="social-account-link">
+                            <a href="https://twitter.com/j_siyame" className="social-account-link">
                                 <RiTwitterXLine size={21} color="#9d9d9d" />
                             </a>
                         </li>
                         <li className="social-account">
                             <a href="" className="social-account-link">
                                 <FaYoutube size={21} color="#9d9d9d" />
+                            </a>
+                        </li>
+                        <li className="social-account">
+                            <a href="https://www.linkedin.com/in/joshua-siyame-a069ab282/" className="social-account-link">
+                                <FaLinkedin size={21} color="#9d9d9d" />
                             </a>
                         </li>
                     </ol>
@@ -120,6 +125,11 @@ const AppFooter = () => {
                         <li className="dev-social-account">
                             <a href="https://twitter.com/j_siyame" target="blank" className="dev-social-account-link">
                                 <RiTwitterXLine size={18} color="#9d9d9d" />
+                            </a>
+                        </li>
+                        <li className="dev-social-account">
+                            <a href="https://www.linkedin.com/in/joshua-siyame-a069ab282" target="blank" className="dev-social-account-link">
+                                <FaLinkedin size={18} color="#9d9d9d" />
                             </a>
                         </li>
                     </ol>
