@@ -20,7 +20,7 @@ const AppFooter = () => {
                                 <FaGithub size={21} color="#9d9d9d" />
                             </a>
                         </li>
-                        {/* <li className="social-account">
+                        {/*  <li className="social-account">
                             <a href="" className="social-account-link">
                                 <FaInstagram size={21} color="#9d9d9d" />
                             </a>
