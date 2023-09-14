@@ -22,6 +22,20 @@ import JavaScript from "./JavaScript/JavaScript";
 import TypeScript from "./TypeScript/TypeScript";
 import Web3 from "./Web3/Web3";
 import Others from "./Others/Others";
+import About from "./Site/About/About";
+import Blog from "./Site/Blog/Blog";
+import Testimonials from "./Site/Testimonials/Testimonials";
+import Articles from "./Community/Articles/Articles";
+import CSSTricks from "./Community/CSSTricks/CSSTricks";
+import Meetups from "./Community/Meetups/Meetups";
+import OpenSource from "./Community/OpenSource/OpenSource";
+import QuestAns from "./Community/QuestAns/QuestAns";
+import Apis from "./Solutions/APIs/Apis";
+import Microservices from "./Solutions/Microservices/Microservices";
+import Mobile from "./Solutions/Mobile/Mobile";
+import Web from "./Solutions/Web/Web";
+import Support from "./Contact/Support/Support";
+import ReportIssue from "./Contact/ReportIssue/ReportIssue";
 
 
 // app component
@@ -50,27 +64,26 @@ const App = () => {
                             <Route path="/login" />
                             <Route path="/signin" />
                             <Route path="/site" >
-                                <Route path="/site/about" />
-                                <Route path="/site/blog" />
-                                <Route path="/site/testimonials" />
+                                <Route path="/site/about" element={<About />} />
+                                <Route path="/site/blog" element={<Blog />} />
+                                <Route path="/site/testimonials" element={<Testimonials />}/>
                             </Route>
                             <Route path="/community">
-                                <Route path="/community/articles" />
-                                <Route path="/community/questAns" />
-                                <Route path="/community/css-tricks" />
-                                <Route path="/community/meetups" />
-                                <Route path="/community/opensource" />
+                                <Route path="/community/articles" element={<Articles />}/>
+                                <Route path="/community/questAns" element={<QuestAns />}/>
+                                <Route path="/community/css-tricks" element={<CSSTricks />}/>
+                                <Route path="/community/meetups" element={<Meetups />}/>
+                                <Route path="/community/opensource" element={<OpenSource />}/>
                             </Route>
                             <Route path="/solutions">
-                                <Route path="/solutions/apis" />
-                                <Route path="/solutions/web" />
-                                <Route path="/solutions/mobile" />
-                                <Route path="/solutions/microservices" />
+                                <Route path="/solutions/apis" element={<Apis />}/>
+                                <Route path="/solutions/web" element={<Web />} />
+                                <Route path="/solutions/mobile" element={<Mobile />} />
+                                <Route path="/solutions/microservices" element={<Microservices />} />
                             </Route>
                             <Route path="/contact">
-                                <Route path="/contact/support" />
-                                <Route path="/contact/expertise" />
-                                <Route path="/contact/report-issue" />
+                                <Route path="/contact/support" element={<Support />} />
+                                <Route path="/contact/report-issue" element={<ReportIssue />} />
                             </Route>
                         </Routes>
                         {/* <RightAsideNav /> */}
