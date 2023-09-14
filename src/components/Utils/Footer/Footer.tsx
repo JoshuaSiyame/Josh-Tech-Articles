@@ -100,7 +100,7 @@ const AppFooter = () => {
                             <NavLink to="/contact/support" className="f-s-l-i-l">Support</NavLink>
                         </li>
                         <li className="f-s-l-i">
-                            <NavLink to="/contact/expertise" className="f-s-l-i-l">Expertise</NavLink>
+                            <a href="https://joshuapsiyame.netlify.app" target="blank" className="f-s-l-i-l">Hire Me</a>
                         </li>
                         <li className="f-s-l-i">
                             <NavLink to="/contact/report-issue" className="f-s-l-i-l">Report Issue</NavLink>
