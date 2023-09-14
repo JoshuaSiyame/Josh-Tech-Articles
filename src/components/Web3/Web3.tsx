@@ -1,10 +1,14 @@
 // import modules/packages
 import React from "react";
 import "./Web3.css";
+import RightAsideNav from "../Utils/RightAsideNav/RightAsideNav";
+import LeftAsideNav from "../Utils/LeftAsideNav/LeftAsideNav";
 
 // ReactJs component
 const Web3 = () =>{
     return (
+        <>
+        <LeftAsideNav />
         <div id="web3" className="">
             <h4 className="main-container-section-header">Articles/Web3</h4>
             <div id="articles-content-container">
@@ -29,6 +33,8 @@ const Web3 = () =>{
                 </div>
             </div>
         </div>
+        <RightAsideNav />
+        </>
     );
 };
 

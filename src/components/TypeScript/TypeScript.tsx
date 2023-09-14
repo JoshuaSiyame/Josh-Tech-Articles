@@ -1,10 +1,14 @@
 // import modules/packages
 import React from "react";
 import "./TypeScript.css";
+import RightAsideNav from "../Utils/RightAsideNav/RightAsideNav";
+import LeftAsideNav from "../Utils/LeftAsideNav/LeftAsideNav";
 
 // ReactJs component
 const TypeScript = () =>{
     return (
+        <>
+        <LeftAsideNav />
         <div id="typescript" className="">
             <h4 className="main-container-section-header">Articles/TypeScript</h4>
             <div id="articles-content-container">
@@ -29,6 +33,8 @@ const TypeScript = () =>{
                 </div>
             </div>
         </div>
+        <RightAsideNav />
+        </>
     );
 };
 

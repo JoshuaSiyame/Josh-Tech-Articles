@@ -35,7 +35,7 @@ const App = () => {
                 <div id="app-content-wrap">
                     <TopNavTwo />
                     <main id="main-container" className="app-section-wrapper">
-                        <LeftAsideNav />
+                        {/* <LeftAsideNav /> */}
                         <Routes>
                             <Route path="/" element={<Latest />} />
                             <Route path="/expressjs" element={<ExpressJs />} />
@@ -73,7 +73,7 @@ const App = () => {
                                 <Route path="/contact/report-issue" />
                             </Route>
                         </Routes>
-                        <RightAsideNav />
+                        {/* <RightAsideNav /> */}
                     </main>
                 </div>
                 <footer id="app-footer">
