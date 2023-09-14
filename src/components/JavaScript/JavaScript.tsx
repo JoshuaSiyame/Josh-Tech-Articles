@@ -1,10 +1,14 @@
 // import modules/packages
 import React from "react";
 import "./JavaScript.css";
+import RightAsideNav from "../Utils/RightAsideNav/RightAsideNav";
+import LeftAsideNav from "../Utils/LeftAsideNav/LeftAsideNav";
 
 // ReactJs component
 const JavaScript = () =>{
     return (
+        <>
+        <LeftAsideNav />
         <div id="javascript" className="">
             <h4 className="main-container-section-header">Articles/JavaScript</h4>
             <div id="articles-content-container">
@@ -29,6 +33,8 @@ const JavaScript = () =>{
                 </div>
             </div>
         </div>
+        <RightAsideNav />
+        </>
     );
 };
 

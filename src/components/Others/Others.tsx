@@ -1,10 +1,14 @@
 // import modules/packages
 import React from "react";
 import "./Others.css";
+import RightAsideNav from "../Utils/RightAsideNav/RightAsideNav";
+import LeftAsideNav from "../Utils/LeftAsideNav/LeftAsideNav";
 
 // ReactJs component
 const Others = () =>{
     return (
+        <>
+        <LeftAsideNav />
         <div id="others" className="">
             <h4 className="main-container-section-header">Articles/Others</h4>
             <div id="articles-content-container">
@@ -29,6 +33,8 @@ const Others = () =>{
                 </div>
             </div>
         </div>
+        <RightAsideNav />
+        </>
     );
 };
 

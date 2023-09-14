@@ -1,10 +1,14 @@
 // import modules/packages
 import React from "react";
 import "./MongoDB.css";
+import RightAsideNav from "../Utils/RightAsideNav/RightAsideNav";
+import LeftAsideNav from "../Utils/LeftAsideNav/LeftAsideNav";
 
 // ReactJs component
 const MongoDB = () =>{
     return (
+        <>
+        <LeftAsideNav />
         <div id="mongodb" className="">
             <h4 className="main-container-section-header">Articles/MongoDB</h4>
             <div id="articles-content-container">
@@ -29,6 +33,8 @@ const MongoDB = () =>{
                 </div>
             </div>
         </div>
+        <RightAsideNav />
+        </>
     );
 };
 
