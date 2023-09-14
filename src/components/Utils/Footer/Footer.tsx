@@ -1,6 +1,7 @@
 // import modules/packages
 import React from "react";
 import "./Footer.css";
+import { NavLink } from "react-router-dom";
 
 // import icons
 import { FaTwitter, FaGithub, FaInstagram, FaDiscord, FaYoutube } from "react-icons/fa"
@@ -19,11 +20,11 @@ const AppFooter = () => {
                                 <FaGithub size={21} color="#9d9d9d" />
                             </a>
                         </li>
-                        <li className="social-account">
+                        {/* <li className="social-account">
                             <a href="" className="social-account-link">
                                 <FaInstagram size={21} color="#9d9d9d" />
                             </a>
-                        </li>
+                        </li> */}
                         <li className="social-account">
                             <a href="" className="social-account-link">
                                 <RiTwitterXLine size={21} color="#9d9d9d" />
@@ -40,13 +41,13 @@ const AppFooter = () => {
                     <h4 className="f-s-h">Site</h4>
                     <ol className="f-s-l">
                         <li className="f-s-l-i">
-                            <a href="" className="f-s-l-i-l">About</a>
+                            <NavLink to="/site/about" className="f-s-l-i-l">About</NavLink>
                         </li>
                         <li className="f-s-l-i">
-                            <a href="" className="f-s-l-i-l">Blog</a>
+                            <NavLink to="/site/blog" className="f-s-l-i-l">Blog</NavLink>
                         </li>
                         <li className="f-s-l-i">
-                            <a href="" className="f-s-l-i-l">Partners</a>
+                            <NavLink to="/site/testimonials" className="f-s-l-i-l">Testimonials</NavLink>
                         </li>
                     </ol>
                 </div>
@@ -54,19 +55,19 @@ const AppFooter = () => {
                     <h4 className="f-s-h">Community</h4>
                     <ol className="f-s-l">
                         <li className="f-s-l-i">
-                            <a href="" className="f-s-l-i-l">Articles</a>
+                            <NavLink to="/community/articles" className="f-s-l-i-l">Articles</NavLink>
                         </li>
                         <li className="f-s-l-i">
-                            <a href="" className="f-s-l-i-l">Q&amp;As</a>
+                            <NavLink to="/community/questans" className="f-s-l-i-l">Q&amp;As</NavLink>
                         </li>
                         <li className="f-s-l-i">
-                            <a href="" className="f-s-l-i-l">CSS - Tricks</a>
+                            <NavLink to="/community/css-tricks" className="f-s-l-i-l">CSS - Tricks</NavLink>
                         </li>
                         <li className="f-s-l-i">
-                            <a href="" className="f-s-l-i-l">Meetups</a>
+                            <NavLink to="/community/meetups" className="f-s-l-i-l">Meetups</NavLink>
                         </li>
                         <li className="f-s-l-i">
-                            <a href="" className="f-s-l-i-l">OpenSource</a>
+                            <NavLink to="/community/opensource" className="f-s-l-i-l">OpenSource</NavLink>
                         </li>
                     </ol>
                 </div>
@@ -74,16 +75,16 @@ const AppFooter = () => {
                     <h4 className="f-s-h">Solutions</h4>
                     <ol className="f-s-l">
                         <li className="f-s-l-i">
-                            <a href="" className="f-s-l-i-l">Web apps</a>
+                            <NavLink to="/solutions/web" className="f-s-l-i-l">Web apps</NavLink>
                         </li>
                         <li className="f-s-l-i">
-                            <a href="" className="f-s-l-i-l">Mobile apps</a>
+                            <NavLink to="/solutions/mobile" className="f-s-l-i-l">Mobile apps</NavLink>
                         </li>
                         <li className="f-s-l-i">
-                            <a href="" className="f-s-l-i-l">Rest APIs</a>
+                            <NavLink to="/solutions/apis" className="f-s-l-i-l">Rest APIs</NavLink>
                         </li>
                         <li className="f-s-l-i">
-                            <a href="" className="f-s-l-i-l">Microservices</a>
+                            <NavLink to="/solutions/microservices" className="f-s-l-i-l">Microservices</NavLink>
                         </li>
                     </ol>
                 </div>
@@ -91,13 +92,13 @@ const AppFooter = () => {
                     <h4 className="f-s-h">Contacts</h4>
                     <ol className="f-s-l">
                         <li className="f-s-l-i">
-                            <a href="" className="f-s-l-i-l">Support</a>
+                            <NavLink to="/contact/support" className="f-s-l-i-l">Support</NavLink>
                         </li>
                         <li className="f-s-l-i">
-                            <a href="" className="f-s-l-i-l">Expertise</a>
+                            <NavLink to="/contact/expertise" className="f-s-l-i-l">Expertise</NavLink>
                         </li>
                         <li className="f-s-l-i">
-                            <a href="" className="f-s-l-i-l">Report Issue</a>
+                            <NavLink to="/contact/report-issue" className="f-s-l-i-l">Report Issue</NavLink>
                         </li>
                     </ol>
                 </div>

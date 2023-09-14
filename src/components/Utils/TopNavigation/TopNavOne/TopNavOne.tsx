@@ -1,28 +1,28 @@
 // import modules/packages
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./TopNavOne.css";
-import Button from "../../Button/Button";
 
 // TopNavOne component
 const TopNavOne = () => {
     return (
         <div id="top-nav-one" className="app-section-wrapper">
-            <a href="" id="site-logo">Josh-Tech-Articles</a>
+            <a href="/" id="site-logo">Josh-Tech-Articles</a>
             <ol id="t-n-o-l">
                 <li className="t-n-o-l-i">
-                    <a href="" id="feedback" className="t-n-o-l-i-l">
+                    <NavLink to="/feedback" id="feedback" className="t-n-o-l-i-l">
                         FeedBack
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="t-n-o-l-i">
-                    <a href="" id="login" className="t-n-o-l-i-l">
+                    <NavLink to="/login" id="login" className="t-n-o-l-i-l">
                         Log In
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="t-n-o-l-i">
-                    <a href="" id="signin" className="t-n-o-l-i-l">
+                    <NavLink to="/signin" id="signin" className="t-n-o-l-i-l">
                         Sign In                        
-                    </a>
+                    </NavLink>
                 </li>
             </ol>
         </div>
