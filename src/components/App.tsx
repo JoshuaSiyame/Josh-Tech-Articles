@@ -46,6 +46,32 @@ const App = () => {
                             <Route path="/typescript" element={<TypeScript />} />
                             <Route path="/web3" element={<Web3 />} />
                             <Route path="/others" element={<Others />} />
+                            <Route path="/feedback" />
+                            <Route path="/login" />
+                            <Route path="/signin" />
+                            <Route path="/site" >
+                                <Route path="/site/about" />
+                                <Route path="/site/blog" />
+                                <Route path="/site/testimonials" />
+                            </Route>
+                            <Route path="/community">
+                                <Route path="/community/articles" />
+                                <Route path="/community/questAns" />
+                                <Route path="/community/css-tricks" />
+                                <Route path="/community/meetups" />
+                                <Route path="/community/opensource" />
+                            </Route>
+                            <Route path="/solutions">
+                                <Route path="/solutions/apis" />
+                                <Route path="/solutions/web" />
+                                <Route path="/solutions/mobile" />
+                                <Route path="/solutions/microservices" />
+                            </Route>
+                            <Route path="/contact">
+                                <Route path="/contact/support" />
+                                <Route path="/contact/expertise" />
+                                <Route path="/contact/report-issue" />
+                            </Route>
                         </Routes>
                         <RightAsideNav />
                     </main>
