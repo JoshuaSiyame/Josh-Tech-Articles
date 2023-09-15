@@ -12,8 +12,9 @@ const About = () =>{
 
     // call the function
     removeNav();
+
     return (
-        <div id="about" className="app-section-wrapper">
+        <div id="about" className="app-section-container-wrapper">
             <h2>About page</h2>
         </div>
     );

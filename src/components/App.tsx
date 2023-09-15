@@ -7,10 +7,6 @@ import "./MainContent/MainContent.css";
 
 // import components
 import AppFooter from "./Utils/Footer/Footer";
-import LeftAsideNav from "./Utils/LeftAsideNav/LeftAsideNav";
-import RightAsideNav from "./Utils/RightAsideNav/RightAsideNav";
-import MainContainer from "./MainContainer/MainContainer";
-import TopNavigation from "./Utils/TopNavigation/TopNavigation";
 import TopNavOne from "./Utils/TopNavigation/TopNavOne/TopNavOne";
 import TopNavTwo from "./Utils/TopNavigation/TopNavTwo/TopNavTwo";
 import Latest from "./Latest/Latest";
@@ -37,6 +33,7 @@ import Web from "./Solutions/Web/Web";
 import Support from "./Contact/Support/Support";
 import ReportIssue from "./Contact/ReportIssue/ReportIssue";
 import Subscription from "./Subscription/Subscription";
+import Article from "./Article/Article";
 
 
 // app component
@@ -53,6 +50,7 @@ const App = () => {
                         {/* <LeftAsideNav /> */}
                         <Routes>
                             <Route path="/" element={<Latest />} />
+                            <Route path="/article-title" element={<Article/>} />
                             <Route path="/expressjs" element={<ExpressJs />} />
                             <Route path="/reactjs" element={<ReactJs />} />
                             <Route path="/nodejs" element={<NodeJs />} />
