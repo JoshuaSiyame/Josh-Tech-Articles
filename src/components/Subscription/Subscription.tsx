@@ -1,9 +1,10 @@
 // import modules/packages
-import React from "react";
-import "./CSSTricks.css";
+import React, { useState } from 'react';
+import "./Subscription.css";
 
-// CSSTricks component
-const CSSTricks = () =>{
+// Subscription component
+const Subscription = () => {
+
     // function to remove the top nav two element
     const removeNav = () =>{
         const topNavTwo: any = document.getElementById("top-nav-two");
@@ -12,11 +13,12 @@ const CSSTricks = () =>{
 
     // call the function
     removeNav();
-    return (
-        <div id="css-tricks" className="app-section-wrapper">
-            <h2>CSSTricks</h2>
-        </div>
-    );
-};
 
-export default CSSTricks;
+    return (
+        <div id='subscription' className='app-section-wrapper'>
+            <h2>Subscription</h2>
+        </div>
+    )
+}
+
+export default Subscription;

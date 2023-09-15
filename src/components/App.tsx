@@ -36,6 +36,7 @@ import Mobile from "./Solutions/Mobile/Mobile";
 import Web from "./Solutions/Web/Web";
 import Support from "./Contact/Support/Support";
 import ReportIssue from "./Contact/ReportIssue/ReportIssue";
+import Subscription from "./Subscription/Subscription";
 
 
 // app component
@@ -60,6 +61,7 @@ const App = () => {
                             <Route path="/typescript" element={<TypeScript />} />
                             <Route path="/web3" element={<Web3 />} />
                             <Route path="/others" element={<Others />} />
+                            <Route path="/subscribe" element={<Subscription />} />
                             <Route path="/feedback" />
                             <Route path="/login" />
                             <Route path="/signin" />
