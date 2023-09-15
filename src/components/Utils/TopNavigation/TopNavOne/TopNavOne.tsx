@@ -10,6 +10,11 @@ const TopNavOne = () => {
             <a href="/" id="site-logo">Josh-Tech-Articles</a>
             <ol id="t-n-o-l">
                 <li className="t-n-o-l-i">
+                    <NavLink to="/subscribe" id="login" className="t-n-o-l-i-l">
+                        Subscribe
+                    </NavLink>
+                </li>
+                {/* <li className="t-n-o-l-i">
                     <NavLink to="/feedback" id="feedback" className="t-n-o-l-i-l">
                         FeedBack
                     </NavLink>
@@ -23,7 +28,7 @@ const TopNavOne = () => {
                     <NavLink to="/signin" id="signin" className="t-n-o-l-i-l">
                         Sign In                        
                     </NavLink>
-                </li>
+                </li> */}
             </ol>
         </div>
     );
