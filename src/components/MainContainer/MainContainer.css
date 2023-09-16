@@ -12,6 +12,14 @@
     /* border: 1px solid salmon; */
 }
 
+/* other main contents */
+#other-main-content {
+    max-width: 900px;
+    margin: 0 auto;
+    border: 2px solid #c7d5e0;
+    padding: 1em;
+}
+
 /* right nav aside */
 #right-nav-aside {
     /* border: 1px solid salmon; */
@@ -29,6 +37,7 @@
 
 /* media queries */
 @media screen and (max-width: 320px) {
+
     /* main content */
     #main-container {}
 
@@ -39,6 +48,9 @@
 
     /* main content */
     #main-content {}
+
+    /* other main contents */
+    #other-main-content {}
 
     /* right nav aside */
     #right-nav-aside {
@@ -52,6 +64,7 @@
 }
 
 @media (min-width: 321px) and (max-width: 480px) {
+
     /* main content */
     #main-container {}
 
@@ -62,6 +75,9 @@
 
     /* main content */
     #main-content {}
+
+    /* other main contents */
+    #other-main-content {}
 
     /* right nav aside */
     #right-nav-aside {
@@ -86,6 +102,9 @@
 
     /* main content */
     #main-content {}
+
+    /* other main contents */
+    #other-main-content {}
 
     /* right nav aside */
     #right-nav-aside {
@@ -113,6 +132,9 @@
     /* main content */
     #main-content {}
 
+    /* other main contents */
+    #other-main-content {}
+
     /* right nav aside */
     #right-nav-aside {
         display: none;
@@ -139,6 +161,9 @@
     /* main content */
     #main-content {}
 
+    /* other main contents */
+    #other-main-content {}
+
     /* right nav aside */
     #right-nav-aside {}
 
@@ -162,6 +187,9 @@
 
     /* main content */
     #main-content {}
+
+    /* other main contents */
+    #other-main-content {}
 
     /* right nav aside */
     #right-nav-aside {}
